@@ -141,7 +141,6 @@ def display_available_vehicles():
     for vehicle in VehicleRental.scooters:
         print(f'Scooter {vehicle.vehicle_id} is available from {vehicle.location}')
 
-
 def main():
     users = {
         'U1': User('U1', 'Evie'),
